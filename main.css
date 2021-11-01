@@ -1,0 +1,126 @@
+/* font and color palette */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(241, 240, 240);
+    background-image: url('/img/circle.png'), url('/img/reygolnik.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 100%;
+    background-position: bottom -150px left -78px, top -128px right -100px;
+}
+.main{
+    width: 60vw;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_block{
+    background-color: #fff;
+    height: 100%;
+    flex-grow: 2;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.left_block h2{
+    color: rgb(85, 83, 83);
+}
+.social_icon{
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 240, 240);
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+}
+p{
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+}
+input{
+    width: 300px;
+    background-color: rgb(241, 240, 240);
+    margin: 0.5rem 0;
+    padding: 1rem 0.75rem;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+}
+.help{
+    border-bottom: 1px dashed #697a79;
+    padding-bottom: 5px;
+    color: #697a79;
+    width: 200px;
+    margin: 0 auto;
+}
+.left_btn{
+    color: white;
+    background: #3ab19b;
+    border: none;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    
+}
+.left_btn:hover{
+    border: 1px solid #697a79;
+    box-shadow: 0px 0px 10px 2px rgb(85, 83, 83)
+}
+textarea{
+    margin: 10px;
+}
+.right_block{
+    flex-grow: 1;
+    background: #3ab19b;
+    border-radius: 20px;
+    height: 100%;
+    width: 570px;
+}
+.right_block h2{
+    text-align: center;
+    position: relative;
+    top: 284px;
+    color: white;
+}
+.right_block p{
+    text-align: center;
+    position: relative;
+    top: 294px;
+    padding: 1rem;
+    color: white;
+}
+.right_block button{
+    width: 75px;
+    height: 30px;
+    border-radius: 20px;
+    background: #3ab19b;
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+}
